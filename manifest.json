@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Ayat Qur'an",
+	"version": "1.0",
+	"description": "A firefox extension to display an ayat when you open a new tab.",
+	"icons": {
+	  "48": "icons/icon-48.png"
+	},
+	"permissions": [
+	  "tabs"
+	],
+	"background": {
+	  "scripts": ["background.js"]
+	},
+	"browser_action": {
+	  "default_icon": "assets/icons/icon.jpg",
+	  "default_popup": "popup.html"
+	}
+ }
